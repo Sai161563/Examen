@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+      <h5 class="card-title">Admin Login</h5>
+      <form (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="text" name="email" class="form-control" id="email" [(ngModel)]="email">
+        </div>
+        <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" name="password" class="form-control" id="password" [(ngModel)]="password">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+      <div class="mt-3">
+        <a href="/admin-password">Forgot Password?</a>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>

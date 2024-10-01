@@ -1,0 +1,8 @@
+.exam {
+    background-image: url('/images/exam-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h4{
+    color: white;
+}

@@ -1,0 +1,19 @@
+{ "question": "What is the default access modifier for a class in Java?", "optionA": "Public", "optionB": "Private", "optionC": "Protected", "optionD": "Default", "correctAnswer": "D", "exam": { "name": "Java" } }
+
+{ "question": "Which of the following is a type of polymorphism in Java?", "optionA": "Method Overloading", "optionB": "Method Overriding", "optionC": "Both A and B", "optionD": "Neither A nor B", "correctAnswer": "C", "exam": { "name": "Java" } }
+
+{ "question": "What is the purpose of the finally block in a Java try-catch statement?", "optionA": "To catch exceptions", "optionB": "To handle errors", "optionC": "To execute code regardless of exceptions", "optionD": "To skip exceptions", "correctAnswer": "C", "exam": { "name": "Java" } }
+
+{ "question": "Which Java collection class is used to store a group of objects?", "optionA": "ArrayList", "optionB": "LinkedList", "optionC": "HashSet", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "Java" } }
+
+{ "question": "What is the purpose of the abstract keyword in Java?", "optionA": "To declare a class as final", "optionB": "To declare a class as abstract", "optionC": "To declare a method as abstract", "optionD": "To declare a variable as abstract", "correctAnswer": "B", "exam": { "name": "Java" } }
+
+{ "question": "Which of the following is a Java keyword?", "optionA": "String", "optionB": "Integer", "optionC": "Class", "optionD": "None of the above", "correctAnswer": "C", "exam": { "name": "Java" } }
+
+{ "question": "What is the purpose of the break statement in a Java switch statement?", "optionA": "To exit the switch statement", "optionB": "To continue to the next case", "optionC": "To skip the current case", "optionD": "To repeat the current case", "correctAnswer": "A", "exam": { "name": "Java" } }
+
+{ "question": "Which Java data type is used to store a single character?", "optionA": "int", "optionB": "char", "optionC": "String", "optionD": "boolean", "correctAnswer": "B", "exam": { "name": "Java" } }
+
+{ "question": "What is the purpose of the super keyword in Java?", "optionA": "To access the parent class", "optionB": "To access the child class", "optionC": "To access the current class", "optionD": "To access the grandparent class", "correctAnswer": "A", "exam": { "name": "Java" } }
+
+{ "question": "Which of the following is a Java exception handling mechanism?", "optionA": "Try-catch block", "optionB": "Try-finally block", "optionC": "Catch-finally block", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "Java" } }

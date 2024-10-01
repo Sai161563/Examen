@@ -1,0 +1,19 @@
+{ "question": "What is the default port number used by MySQL?", "optionA": "3305", "optionB": "3306", "optionC": "3307", "optionD": "3308", "correctAnswer": "B", "exam": { "name": "MySQL" } }
+
+{ "question": "Which of the following is a type of MySQL join?", "optionA": "Inner join", "optionB": "Left join", "optionC": "Right join", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "MySQL" } }
+
+{ "question": "What is the purpose of the INDEX keyword in MySQL?", "optionA": "To create a primary key", "optionB": "To create a foreign key", "optionC": "To improve query performance", "optionD": "To create a unique constraint", "correctAnswer": "C", "exam": { "name": "MySQL" } }
+
+{ "question": "Which of the following is a MySQL data type?", "optionA": "INT", "optionB": "VARCHAR", "optionC": "DATE", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "MySQL" } }
+
+{ "question": "What is the purpose of the GROUP BY clause in MySQL?", "optionA": "To filter data", "optionB": "To sort data", "optionC": "To group data", "optionD": "To aggregate data", "correctAnswer": "C", "exam": { "name": "MySQL" } }
+
+{ "question": "Which of the following is a MySQL aggregate function?", "optionA": "SUM", "optionB": "AVG", "optionC": "MAX", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "MySQL" } }
+
+{ "question": "What is the purpose of the LIMIT clause in MySQL?", "optionA": "To filter data", "optionB": "To sort data", "optionC": "To limit the number of rows returned", "optionD": "To aggregate data", "correctAnswer": "C", "exam": { "name": "MySQL" } }
+
+{ "question": "Which of the following is a MySQL storage engine?", "optionA": "InnoDB", "optionB": "MyISAM", "optionC": "MEMORY", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "MySQL" } }
+
+{ "question": "What is the purpose of the TRIGGER keyword in MySQL?", "optionA": "To create a stored procedure", "optionB": "To create a view", "optionC": "To create a trigger", "optionD": "To create an index", "correctAnswer": "C", "exam": { "name": "MySQL" } }
+
+{ "question": "Which of the following is a MySQL privilege?", "optionA": "SELECT", "optionB": "INSERT", "optionC": "UPDATE", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "MySQL" } }

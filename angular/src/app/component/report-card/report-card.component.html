@@ -1,0 +1,113 @@
+<div id="report-content" *ngIf="report" class="container mt-4">
+  <div class="row">
+    <div class="col-12">
+      <h2>Report {{ report.reportId }}</h2>
+    </div>
+    <div class="col-12">
+      <p>Full Name: {{ report.fname }}</p>
+    </div>
+    <div class="col-12">
+      <p>Exam Name: {{ report.examName }}</p>
+    </div>
+    <div class="col-12">
+      <p>Total Marks: {{ report.totalMarks }}</p>
+    </div>
+    <div class="col-12">
+      <button (click)="generatePDF()" class="btn btn-primary mt-3">Download PDF</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="report1" class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <h2 class="text-center">Report</h2>
+      <div class="table-responsive">
+        <table class="table table-hover table-bordered text-center">
+          <thead class="thead-dark">
+            <tr>
+              <th>#</th>
+              <th>Exam</th>
+              <th>Marks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of report1; let i = index">
+              <td>{{ i + 1 }}</td>
+              <td>{{ item.name }}</td>
+              <td>{{ item.totalMarks }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="report2" class="container mt-4">
+  <h2 class="mb-4">Exam Results</h2>
+  
+  <div class="row mb-4">
+    <div class="col-md-3 col-sm-6 mb-3">
+      <label for="examName">Exam Name:</label>
+      <select id="examName" class="form-control" [(ngModel)]="filters.examName" (change)="applyFilters()">
+        <option value="">All</option>
+        <option *ngFor="let exam of examNames" [value]="exam">{{ exam }}</option>
+      </select>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-3">
+      <label for="state">State:</label>
+      <select id="state" class="form-control" [(ngModel)]="filters.state" (change)="applyFilters()">
+        <option value="">All</option>
+        <option *ngFor="let state of states" [value]="state">{{ state }}</option>
+      </select>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-3">
+      <label for="city">City:</label>
+      <select id="city" class="form-control" [(ngModel)]="filters.city" (change)="applyFilters()">
+        <option value="">All</option>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-3">
+      <label for="marksRange">Marks Range:</label>
+      <select id="marksRange" class="form-control" [(ngModel)]="filters.marksRange" (change)="applyFilters()">
+        <option value="">All</option>
+        <option *ngFor="let range of marksRanges" [value]="range">{{ range }}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <button class="btn btn-secondary mb-3" (click)="resetFilters()">Reset Filters</button>
+    </div>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th>Name</th>
+          <th>Exam Name</th>
+          <th>Total Marks</th>
+          <th>Email</th>
+          <th>Mobile No</th>
+          <th>City</th>
+          <th>State</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let result of filteredReport">
+          <td>{{ result.fname }}</td>
+          <td>{{ result.examName }}</td>
+          <td>{{ result.totalMarks }}</td>
+          <td>{{ result.email }}</td>
+          <td>{{ result.mobileNo }}</td>
+          <td>{{ result.city }}</td>
+          <td>{{ result.state }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

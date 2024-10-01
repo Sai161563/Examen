@@ -1,0 +1,32 @@
+<div class="container mt-4">
+    <h1 class="mb-4">{{ examName }} Exam (ID: {{ examId }})</h1>
+    
+    <div class="accordion" id="questionAccordion">
+      <div class="card mb-3" *ngFor="let question of questions">
+        <div class="card-header" [id]="'heading' + question.qid">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" 
+                    (click)="toggleQuestion(question.qid)"
+                    [attr.aria-expanded]="isExpanded(question.qid)"
+                    [attr.aria-controls]="'collapse' + question.qid">
+              {{ question.question }}
+            </button>
+          </h2>
+        </div>
+  
+        <div [id]="'collapse' + question.qid" class="collapse" 
+             [ngClass]="{'show': isExpanded(question.qid)}"
+             [attr.aria-labelledby]="'heading' + question.qid" 
+             data-parent="#questionAccordion">
+          <div class="card-body">
+            <p><strong>A:</strong> {{ question.optionA }}</p>
+            <p><strong>B:</strong> {{ question.optionB }}</p>
+            <p><strong>C:</strong> {{ question.optionC }}</p>
+            <p><strong>D:</strong> {{ question.optionD }}</p>
+            <p><strong>Correct Answer:</strong> {{ question.correctOption }}</p>
+            <button class="btn btn-danger mt-2" (click)="deleteQuestion(question.qid)">Delete Question</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

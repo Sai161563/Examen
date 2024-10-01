@@ -1,0 +1,24 @@
+<div class="exam">
+<form (ngSubmit)="submitExam()" class="container mt-5 ">
+  <div *ngFor="let question of questions" class="mb-4">
+    <h4 class="mb-3">{{ question.question }}</h4>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="answer{{ question.qid }}" value="A" [(ngModel)]="answers[question.qid]" id="answerA{{ question.qid }}">
+      <label class="form-check-label" for="answerA{{ question.qid }}">{{ question.optionA }}</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="answer{{ question.qid }}" value="B" [(ngModel)]="answers[question.qid]" id="answerB{{ question.qid }}">
+      <label class="form-check-label" for="answerB{{ question.qid }}">{{ question.optionB }}</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="answer{{ question.qid }}" value="C" [(ngModel)]="answers[question.qid]" id="answerC{{ question.qid }}">
+      <label class="form-check-label" for="answerC{{ question.qid }}">{{ question.optionC }}</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="answer{{ question.qid }}" value="D" [(ngModel)]="answers[question.qid]" id="answerD{{ question.qid }}">
+      <label class="form-check-label" for="answerD{{ question.qid }}">{{ question.optionD }}</label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>

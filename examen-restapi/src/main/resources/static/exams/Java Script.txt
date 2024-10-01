@@ -1,0 +1,19 @@
+{ "question": "What is the primary purpose of JavaScript?", "optionA": "To create web pages", "optionB": "To add interactivity to web pages", "optionC": "To create mobile apps", "optionD": "To create desktop applications", "correctAnswer": "B", "exam": { "name": "JavaScript" } }
+
+{ "question": "Which of the following is a JavaScript data type?", "optionA": "Number", "optionB": "String", "optionC": "Boolean", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "JavaScript" } }
+
+{ "question": "What is the purpose of the let keyword in JavaScript?", "optionA": "To declare a global variable", "optionB": "To declare a local variable", "optionC": "To declare a constant", "optionD": "To declare a function", "correctAnswer": "B", "exam": { "name": "JavaScript" } }
+
+{ "question": "Which of the following is a JavaScript loop?", "optionA": "For loop", "optionB": "While loop", "optionC": "Do-while loop", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "JavaScript" } }
+
+{ "question": "What is the purpose of the addEventListener method in JavaScript?", "optionA": "To add an event listener to an element", "optionB": "To remove an event listener from an element", "optionC": "To trigger an event on an element", "optionD": "To prevent an event from bubbling up", "correctAnswer": "A", "exam": { "name": "JavaScript" } }
+
+{ "question": "Which of the following is a JavaScript built-in object?", "optionA": "Array", "optionB": "Object", "optionC": "String", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "JavaScript" } }
+
+{ "question": "What is the purpose of the JSON.parse method in JavaScript?", "optionA": "To convert a JSON string to a JavaScript object", "optionB": "To convert a JavaScript object to a JSON string", "optionC": "To validate a JSON string", "optionD": "To parse a JSON file", "correctAnswer": "A", "exam": { "name": "JavaScript" } }
+
+{ "question": "Which of the following is a JavaScript error?", "optionA": "SyntaxError", "optionB": "TypeError", "optionC": "ReferenceError", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "JavaScript" } }
+
+{ "question": "What is the purpose of the async/await syntax in JavaScript?", "optionA": "To handle synchronous code", "optionB": "To handle asynchronous code", "optionC": "To improve code readability", "optionD": "To reduce code complexity", "correctAnswer": "B", "exam": { "name": "JavaScript" } }
+
+{ "question": "Which of the following is a JavaScript framework?", "optionA": "React", "optionB": "Angular", "optionC": "Vue.js", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "JavaScript" } }

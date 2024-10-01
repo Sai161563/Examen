@@ -1,0 +1,19 @@
+{ "question": "What is the primary purpose of Spring Boot?", "optionA": "To simplify the development of web applications", " optionB": "To simplify the development of desktop applications", "optionC": "To simplify the development of mobile applications", "optionD": "To simplify the development of enterprise applications", "correctAnswer": "A", "exam": { "name": "Spring Boot" } }
+
+{ "question": "Which of the following is a key feature of Spring Boot?", "optionA": "Auto-configuration", "optionB": "Manual configuration", "optionC": "Dynamic configuration", "optionD": "Static configuration", "correctAnswer": "A", "exam": { "name": "Spring Boot" } }
+
+{ "question": "What is the purpose of the @SpringBootApplication annotation in Spring Boot?", "optionA": "To enable auto-configuration", "optionB": "To enable manual configuration", "optionC": "To enable dynamic configuration", "optionD": "To enable static configuration", "correctAnswer": "A", "exam": { "name": "Spring Boot" } }
+
+{ "question": "Which of the following is a type of Spring Boot starter?", "optionA": "Web starter", "optionB": "Data JPA starter", "optionC": "Security starter", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "Spring Boot" } }
+
+{ "question": "What is the purpose of the application.properties file in Spring Boot?", "optionA": "To configure the application", "optionB": "To configure the database", "optionC": "To configure the security", "optionD": "To configure the logging", "correctAnswer": "A", "exam": { "name": "Spring Boot" } }
+
+{ "question": "Which of the following is a benefit of using Spring Boot?", "optionA": "Faster development", "optionB": "Easier maintenance", "optionC": "Improved performance", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "Spring Boot" } }
+
+{ "question": "What is the purpose of the @RestController annotation in Spring Boot?", "optionA": "To mark a class as a controller", "optionB": "To mark a class as a service", "optionC": "To mark a class as a repository", "optionD": "To mark a class as a model", "correctAnswer": "A", "exam": { "name": "Spring Boot" } }
+
+{ "question": "Which of the following is a Spring Boot actuator endpoint?", "optionA": "/health", "optionB": "/metrics", "optionC": "/beans", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "Spring Boot" } }
+
+{ "question": "What is the purpose of the spring-boot-starter-web dependency in Spring Boot?", "optionA": "To enable web development", "optionB": "To enable data access", "optionC": "To enable security", "optionD": "To enable logging", "correctAnswer": "A", "exam": { "name": "Spring Boot" } }
+
+{ "question": "Which of the following is a Spring Boot profile?", "optionA": "Dev", "optionB": "Prod", "optionC": "Test", "optionD": "All of the above", "correctAnswer": "D", "exam": { "name": "Spring Boot" } }

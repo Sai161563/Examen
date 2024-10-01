@@ -1,0 +1,22 @@
+<div class="container py-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h1 class="mb-0">Exam Selection</h1>
+        </div>
+        <div class="card-body">
+            <p class="lead">Please select the topic you want to take the exam on:</p>
+            <form (ngSubmit)="startExam()">
+                <div class="list-group">
+                    <div class="list-group-item" *ngFor="let exam of exams">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="examRadio" [(ngModel)]="examRadio" [value]="exam.eid" [id]="exam.eid">
+                            <label class="form-check-label" [for]="exam.eid">{{ exam.name }}</label>
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-3">Instructions: Please select one of the above topics and click the "Start Exam" button to begin the exam. Good luck!</p>
+                <button class="btn btn-primary btn-block">Start Exam</button>
+            </form>
+        </div>
+    </div>
+</div>
